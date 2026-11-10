@@ -1,0 +1,1374 @@
+{
+    "somef_provenance": {
+        "somef_version": "0.11.3",
+        "somef_schema_version": "1.0.0",
+        "date": "2026-11-08 12:23:52"
+    },
+    "code_repository": [
+        {
+            "result": {
+                "value": "https://github.com/SergioZSZ/Research-Funding-Knowledge-Graph",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "https://github.com/SergioZSZ/OS-IA-Pipegrobid",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "code_parser",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/codemeta.json"
+        }
+    ],
+    "owner": [
+        {
+            "result": {
+                "value": "SergioZSZ",
+                "type": "User"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "date_created": [
+        {
+            "result": {
+                "value": "2026-02-10T16:13:31Z",
+                "type": "Date"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "2026-02-15",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "code_parser",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/codemeta.json"
+        }
+    ],
+    "date_updated": [
+        {
+            "result": {
+                "value": "2026-11-04T09:59:28Z",
+                "type": "Date"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "2026-05-26",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "code_parser",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/codemeta.json"
+        }
+    ],
+    "license": [
+        {
+            "result": {
+                "value": "https://api.github.com/licenses/apache-2.0",
+                "type": "License",
+                "name": "Apache License 2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0",
+                "spdx_id": "Apache-2.0",
+                "identifier": "https://spdx.org/licenses/Apache-2.0"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "Apache-2.0",
+                "type": "File_dump",
+                "name": "Apache License 2.0",
+                "spdx_id": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0"
+            },
+            "confidence": 1,
+            "technique": "file_exploration",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/CITATION.cff"
+        },
+        {
+            "result": {
+                "value": "                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      \"Licensor\" shall mean the copyright owner or entity authorized by\n      the copyright owner that is granting the License.\n\n      \"Legal Entity\" shall mean the union of the acting entity and all\n      other entities that control, are controlled by, or are under common\n      control with that entity. For the purposes of this definition,\n      \"control\" means (i) the power, direct or indirect, to cause the\n      direction or management of such entity, whether by contract or\n      otherwise, or (ii) ownership of fifty percent (50%) or more of the\n      outstanding shares, or (iii) beneficial ownership of such entity.\n\n      \"You\" (or \"Your\") shall mean an individual or Legal Entity\n      exercising permissions granted by this License.\n\n      \"Source\" form shall mean the preferred form for making modifications,\n      including but not limited to software source code, documentation\n      source, and configuration files.\n\n      \"Object\" form shall mean any form resulting from mechanical\n      transformation or translation of a Source form, including but\n      not limited to compiled object code, generated documentation,\n      and conversions to other media types.\n\n      \"Work\" shall mean the work of authorship, whether in Source or\n      Object form, made available under the License, as indicated by a\n      copyright notice that is included in or attached to the work\n      (an example is provided in the Appendix below).\n\n      \"Derivative Works\" shall mean any work, whether in Source or Object\n      form, that is based on (or derived from) the Work and for which the\n      editorial revisions, annotations, elaborations, or other modifications\n      represent, as a whole, an original work of authorship. For the purposes\n      of this License, Derivative Works shall not include works that remain\n      separable from, or merely link (or bind by name) to the interfaces of,\n      the Work and Derivative Works thereof.\n\n      \"Contribution\" shall mean any work of authorship, including\n      the original version of the Work and any modifications or additions\n      to that Work or Derivative Works thereof, that is intentionally\n      submitted to Licensor for inclusion in the Work by the copyright owner\n      or by an individual or Legal Entity authorized to submit on behalf of\n      the copyright owner. For the purposes of this definition, \"submitted\"\n      means any form of electronic, verbal, or written communication sent\n      to the Licensor or its representatives, including but not limited to\n      communication on electronic mailing lists, source code control systems,\n      and issue tracking systems that are managed by, or on behalf of, the\n      Licensor for the purpose of discussing and improving the Work, but\n      excluding communication that is conspicuously marked or otherwise\n      designated in writing by the copyright owner as \"Not a Contribution.\"\n\n      \"Contributor\" shall mean Licensor and any individual or Legal Entity\n      on behalf of whom a Contribution has been received by Licensor and\n      subsequently incorporated within the Work.\n\n   2. Grant of Copyright License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      copyright license to reproduce, prepare Derivative Works of,\n      publicly display, publicly perform, sublicense, and distribute the\n      Work and such Derivative Works in Source or Object form.\n\n   3. Grant of Patent License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      (except as stated in this section) patent license to make, have made,\n      use, offer to sell, sell, import, and otherwise transfer the Work,\n      where such license applies only to those patent claims licensable\n      by such Contributor that are necessarily infringed by their\n      Contribution(s) alone or by combination of their Contribution(s)\n      with the Work to which such Contribution(s) was submitted. If You\n      institute patent litigation against any entity (including a\n      cross-claim or counterclaim in a lawsuit) alleging that the Work\n      or a Contribution incorporated within the Work constitutes direct\n      or contributory patent infringement, then any patent licenses\n      granted to You under this License for that Work shall terminate\n      as of the date such litigation is filed.\n\n   4. Redistribution. You may reproduce and distribute copies of the\n      Work or Derivative Works thereof in any medium, with or without\n      modifications, and in Source or Object form, provided that You\n      meet the following conditions:\n\n      (a) You must give any other recipients of the Work or\n          Derivative Works a copy of this License; and\n\n      (b) You must cause any modified files to carry prominent notices\n          stating that You changed the files; and\n\n      (c) You must retain, in the Source form of any Derivative Works\n          that You distribute, all copyright, patent, trademark, and\n          attribution notices from the Source form of the Work,\n          excluding those notices that do not pertain to any part of\n          the Derivative Works; and\n\n      (d) If the Work includes a \"NOTICE\" text file as part of its\n          distribution, then any Derivative Works that You distribute must\n          include a readable copy of the attribution notices contained\n          within such NOTICE file, excluding those notices that do not\n          pertain to any part of the Derivative Works, in at least one\n          of the following places: within a NOTICE text file distributed\n          as part of the Derivative Works; within the Source form or\n          documentation, if provided along with the Derivative Works; or,\n          within a display generated by the Derivative Works, if and\n          wherever such third-party notices normally appear. The contents\n          of the NOTICE file are for informational purposes only and\n          do not modify the License. You may add Your own attribution\n          notices within Derivative Works that You distribute, alongside\n          or as an addendum to the NOTICE text from the Work, provided\n          that such additional attribution notices cannot be construed\n          as modifying the License.\n\n      You may add Your own copyright statement to Your modifications and\n      may provide additional or different license terms and conditions\n      for use, reproduction, or distribution of Your modifications, or\n      for any such Derivative Works as a whole, provided Your use,\n      reproduction, and distribution of the Work otherwise complies with\n      the conditions stated in this License.\n\n   5. Submission of Contributions. Unless You explicitly state otherwise,\n      any Contribution intentionally submitted for inclusion in the Work\n      by You to the Licensor shall be under the terms and conditions of\n      this License, without any additional terms or conditions.\n      Notwithstanding the above, nothing herein shall supersede or modify\n      the terms of any separate license agreement you may have executed\n      with Licensor regarding such Contributions.\n\n   6. Trademarks. This License does not grant permission to use the trade\n      names, trademarks, service marks, or product names of the Licensor,\n      except as required for reasonable and customary use in describing the\n      origin of the Work and reproducing the content of the NOTICE file.\n\n   7. Disclaimer of Warranty. Unless required by applicable law or\n      agreed to in writing, Licensor provides the Work (and each\n      Contributor provides its Contributions) on an \"AS IS\" BASIS,\n      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or\n      implied, including, without limitation, any warranties or conditions\n      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A\n      PARTICULAR PURPOSE. You are solely responsible for determining the\n      appropriateness of using or redistributing the Work and assume any\n      risks associated with Your exercise of permissions under this License.\n\n   8. Limitation of Liability. In no event and under no legal theory,\n      whether in tort (including negligence), contract, or otherwise,\n      unless required by applicable law (such as deliberate and grossly\n      negligent acts) or agreed to in writing, shall any Contributor be\n      liable to You for damages, including any direct, indirect, special,\n      incidental, or consequential damages of any character arising as a\n      result of this License or out of the use or inability to use the\n      Work (including but not limited to damages for loss of goodwill,\n      work stoppage, computer failure or malfunction, or any and all\n      other commercial damages or losses), even if such Contributor\n      has been advised of the possibility of such damages.\n\n   9. Accepting Warranty or Additional Liability. While redistributing\n      the Work or Derivative Works thereof, You may choose to offer,\n      and charge a fee for, acceptance of support, warranty, indemnity,\n      or other liability obligations and/or rights consistent with this\n      License. However, in accepting such obligations, You may act only\n      on Your own behalf and on Your sole responsibility, not on behalf\n      of any other Contributor, and only if You agree to indemnify,\n      defend, and hold each Contributor harmless for any liability\n      incurred by, or claims asserted against, such Contributor by reason\n      of your accepting any such warranty or additional liability.\n\n   END OF TERMS AND CONDITIONS\n\n   APPENDIX: How to apply the Apache License to your work.\n\n      To apply the Apache License to your work, attach the following\n      boilerplate notice, with the fields enclosed by brackets \"[]\"\n      replaced with your own identifying information. (Don't include\n      the brackets!)  The text should be enclosed in the appropriate\n      comment syntax for the file format. We also recommend that a\n      file or class name and description of purpose be included on the\n      same \"printed page\" as the copyright notice for easier\n      identification within third-party archives.\n\n   Copyright 2026 Sergio Zaballos Herrera\n\n   Licensed under the Apache License, Version 2.0 (the \"License\");\n   you may not use this file except in compliance with the License.\n   You may obtain a copy of the License at\n\n       http://www.apache.org/licenses/LICENSE-2.0\n\n   Unless required by applicable law or agreed to in writing, software\n   distributed under the License is distributed on an \"AS IS\" BASIS,\n   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n   See the License for the specific language governing permissions and\n   limitations under the License.\n",
+                "type": "File_dump",
+                "name": "Apache License 2.0",
+                "spdx_id": "Apache-2.0",
+                "url": "https://spdx.org/licenses/Apache-2.0",
+                "identifier": "https://spdx.org/licenses/Apache-2.0"
+            },
+            "confidence": 1,
+            "technique": "file_exploration",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/LICENSE"
+        },
+        {
+            "result": {
+                "value": "Apache-2.0",
+                "type": "License",
+                "identifier": "https://spdx.org/licenses/Apache-2.0",
+                "spdx_id": "Apache-2.0"
+            },
+            "confidence": 1,
+            "technique": "code_parser",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/codemeta.json"
+        },
+        {
+            "result": {
+                "value": "",
+                "spdx_id": "Apache-2.0",
+                "name": "Apache License 2.0",
+                "type": "License"
+            },
+            "confidence": 1,
+            "technique": "code_parser",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/pyproject.toml"
+        }
+    ],
+    "name": [
+        {
+            "result": {
+                "value": "Research-Funding-Knowledge-Graph",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "Software para extracci\u00f3n de documentos cient\u00edficos mediante el software GROBID",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "code_parser",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/codemeta.json"
+        }
+    ],
+    "full_name": [
+        {
+            "result": {
+                "value": "SergioZSZ/Research-Funding-Knowledge-Graph",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "issue_tracker": [
+        {
+            "result": {
+                "value": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/issues",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "https://github.com/SergioZSZ/OS-IA-Pipegrobid/issues",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "code_parser",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/codemeta.json"
+        }
+    ],
+    "forks_url": [
+        {
+            "result": {
+                "value": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/forks",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "forks_count": [
+        {
+            "result": {
+                "value": 3,
+                "type": "Number"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "download_url": [
+        {
+            "result": {
+                "value": "https://github.com/SergioZSZ/Research-Funding-Knowledge-Graph/releases",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "https://github.com/SergioZSZ/OS-IA-Pipegrobid/releases",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "code_parser",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/codemeta.json"
+        }
+    ],
+    "programming_languages": [
+        {
+            "result": {
+                "value": "Python",
+                "name": "Python",
+                "type": "Programming_language",
+                "size": 261374
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "Dockerfile",
+                "name": "Dockerfile",
+                "type": "Programming_language",
+                "size": 3539
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "name": "Python",
+                "value": "Python",
+                "type": "Programming_language",
+                "version": "3.10"
+            },
+            "confidence": 1,
+            "technique": "code_parser",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/codemeta.json"
+        }
+    ],
+    "releases": [
+        {
+            "result": {
+                "type": "Release",
+                "value": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/releases/329363336",
+                "tag": "1.4.1",
+                "name": "1.4.1",
+                "author": {
+                    "name": "SergioZSZ",
+                    "type": "User"
+                },
+                "description": "added currency type to ontology, KG and frontend\r\n",
+                "tarball_url": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/tarball/1.4.1",
+                "zipball_url": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/zipball/1.4.1",
+                "html_url": "https://github.com/SergioZSZ/Research-Funding-Knowledge-Graph/releases/tag/1.4.1",
+                "url": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/releases/329363336",
+                "release_id": 329363336,
+                "date_created": "2026-05-26T10:18:42Z",
+                "date_published": "2026-05-26T10:21:27Z",
+                "assets": []
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "type": "Release",
+                "value": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/releases/329058691",
+                "tag": "1.4.0",
+                "name": "1.4.0",
+                "author": {
+                    "name": "SergioZSZ",
+                    "type": "User"
+                },
+                "description": "\r\n# Novedades\r\n\r\n## Parseo de XMLs generados por grobid\r\n\r\n- a\u00f1adidos scripts para la extracci\u00f3n de informaci\u00f3n estructurada:\r\n\r\n    - initial_parse.py:\r\n        contiene funciones para el parseo de los datos estructurados del xml generado a partir\r\n        del pdf con los que se puede nutrir el KG\r\n\r\n        Actualmente permite extraer:\r\n\r\n        - Informaci\u00f3n del paper:\r\n            - t\u00edtulo\r\n            - abstract\r\n            - fecha de publicaci\u00f3n\r\n            - identificador local\r\n            - DOI pendiente de enriquecimiento externo\r\n\r\n        - Informaci\u00f3n de autores:\r\n            - nombre\r\n            - orden de autor\u00eda\r\n            - ORCID pendiente de enriquecimiento externo\r\n\r\n        - Informaci\u00f3n de acknowledgements:\r\n            - texto bruto de la secci\u00f3n\r\n            - marcado como pendiente de extracci\u00f3n mediante LLM/NER\r\n\r\n    - parse_grobid_xml.py:\r\n        Contiene el flujo de parseo de los XML.\r\n\r\n        Su funci\u00f3n es:\r\n\r\n        1. Recorrer los XML generados por GROBID.\r\n        2. Aplicar las funciones de parseo definidas en `initial_parse.py`.\r\n        3. Generar un JSON estructurado por cada paper.\r\n        4. Guardar los resultados en la carpeta de salida correspondiente.\r\n        \r\n\r\n## NER y extracci\u00f3n de dichas entidades de los acknowledgements\r\n- Realizado corpus (golden standar) y estudio sobre transformers y LLMs para obtener el mejor para nuestro proyecto (vencedor: LLM `llama-3.3-70b-versatile`)\r\n\r\n- Uso de LLM ``llama-3.3-70b-versatile`` para reconocimiento de entidades en \"acknowledgements\". El objetivo es extraer:\r\n\r\n    - personas mencionadas\r\n    - organizaciones financiadoras\r\n    - proyectos\r\n    - identificadores de grants/awards\r\n    - posibles relaciones entre proyectos y financiadores\r\n\r\n\r\n\r\n## TOPIC MODELING  + PAPER SIMILARITIES\r\n- Generaci\u00f3n de TopicModeling mediante `BERTopic` y embeddings para nutrir el KG con topics, pertenencia paper-topic y similaridades entre papers.\r\n\r\n## Generaci\u00f3n de KG local\r\n- Enriquecimiento de los jsons con fuentes externas:\r\n    - **OpenAIRE**: proyectos de investigaci\u00f3n, fechas y financiaci\u00f3n.\r\n    - **ORCID**: identificadores y afiliaciones p\u00fablicas de autores.\r\n    - **Wikidata**: informaci\u00f3n de organizaciones, pa\u00edses e identificadores externos.\r\n\r\n- Creaci\u00f3n del KG local en formato `.ttl` a partir de los datos extra\u00eddos del XML, entidades reconocidas mediante IA, topics y relaciones de similaridad.\r\n\r\n\r\n## Workflow n8n\r\nIntegraci\u00f3n del workflow con `n8n`, `python_runner`, `Fuseki` y `research_api` para automatizar la generaci\u00f3n del KG a partir de los papers seleccionados.\r\n\r\n## Creaci\u00f3n app RESEARCH\r\nRealizado backend y frontend de una aplicaci\u00f3n usando `FASTAPI` y `Streamlit` que realiza consultas SPARQL al KG desplegado con ``fuseki`` visualizando los resultados de manera estructurada con el objetivo marcado en `/assigment_2/step_1`\r\n\r\n\r\n\r\n\r\n\r\n",
+                "tarball_url": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/tarball/1.4.0",
+                "zipball_url": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/zipball/1.4.0",
+                "html_url": "https://github.com/SergioZSZ/Research-Funding-Knowledge-Graph/releases/tag/1.4.0",
+                "url": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/releases/329058691",
+                "release_id": 329058691,
+                "date_created": "2026-05-25T20:01:27Z",
+                "date_published": "2026-05-25T20:53:29Z",
+                "assets": []
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "type": "Release",
+                "value": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/releases/295777686",
+                "tag": "1.3.8",
+                "name": "1.3.8",
+                "author": {
+                    "name": "SergioZSZ",
+                    "type": "User"
+                },
+                "description": "updated metadata",
+                "tarball_url": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/tarball/1.3.8",
+                "zipball_url": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/zipball/1.3.8",
+                "html_url": "https://github.com/SergioZSZ/Research-Funding-Knowledge-Graph/releases/tag/1.3.8",
+                "url": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/releases/295777686",
+                "release_id": 295777686,
+                "date_created": "2026-03-11T17:02:45Z",
+                "date_published": "2026-03-11T17:03:48Z",
+                "assets": []
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "type": "Release",
+                "value": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/releases/295754462",
+                "tag": "1.3.7",
+                "name": "1.3.7",
+                "author": {
+                    "name": "SergioZSZ",
+                    "type": "User"
+                },
+                "description": "updated metadata",
+                "tarball_url": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/tarball/1.3.7",
+                "zipball_url": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/zipball/1.3.7",
+                "html_url": "https://github.com/SergioZSZ/Research-Funding-Knowledge-Graph/releases/tag/1.3.7",
+                "url": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/releases/295754462",
+                "release_id": 295754462,
+                "date_created": "2026-03-11T16:24:03Z",
+                "date_published": "2026-03-11T16:25:09Z",
+                "assets": []
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "type": "Release",
+                "value": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/releases/295588768",
+                "tag": "1.3.6",
+                "name": "1.3.6",
+                "author": {
+                    "name": "SergioZSZ",
+                    "type": "User"
+                },
+                "description": "updated readthedocs",
+                "tarball_url": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/tarball/1.3.6",
+                "zipball_url": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/zipball/1.3.6",
+                "html_url": "https://github.com/SergioZSZ/Research-Funding-Knowledge-Graph/releases/tag/1.3.6",
+                "url": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/releases/295588768",
+                "release_id": 295588768,
+                "date_created": "2026-03-11T10:51:04Z",
+                "date_published": "2026-03-11T10:51:41Z",
+                "assets": []
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "type": "Release",
+                "value": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/releases/295583728",
+                "tag": "1.3.5",
+                "name": "1.3.5",
+                "author": {
+                    "name": "SergioZSZ",
+                    "type": "User"
+                },
+                "description": "Actualizado dockerfile y entrypoint ",
+                "tarball_url": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/tarball/1.3.5",
+                "zipball_url": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/zipball/1.3.5",
+                "html_url": "https://github.com/SergioZSZ/Research-Funding-Knowledge-Graph/releases/tag/1.3.5",
+                "url": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/releases/295583728",
+                "release_id": 295583728,
+                "date_created": "2026-03-11T10:51:04Z",
+                "date_published": "2026-03-11T10:41:21Z",
+                "assets": []
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "type": "Release",
+                "value": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/releases/295579205",
+                "tag": "1.3.4",
+                "name": "1.3.4",
+                "author": {
+                    "name": "SergioZSZ",
+                    "type": "User"
+                },
+                "description": "actualizado readme\r\n\r\nactualizados logs internos",
+                "tarball_url": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/tarball/1.3.4",
+                "zipball_url": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/zipball/1.3.4",
+                "html_url": "https://github.com/SergioZSZ/Research-Funding-Knowledge-Graph/releases/tag/1.3.4",
+                "url": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/releases/295579205",
+                "release_id": 295579205,
+                "date_created": "2026-03-11T10:51:04Z",
+                "date_published": "2026-03-11T10:31:34Z",
+                "assets": []
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "type": "Release",
+                "value": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/releases/286516735",
+                "tag": "1.0.0",
+                "name": "1.0.0",
+                "author": {
+                    "name": "SergioZSZ",
+                    "type": "User"
+                },
+                "description": "**Full Changelog**: https://github.com/SergioZSZ/Artificial-Intelligence-And-Open-Science-In-Research-Software-Engineering/tree/main/Assigment_1",
+                "tarball_url": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/tarball/1.0.0",
+                "zipball_url": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/zipball/1.0.0",
+                "html_url": "https://github.com/SergioZSZ/Research-Funding-Knowledge-Graph/releases/tag/1.0.0",
+                "url": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/releases/286516735",
+                "release_id": 286516735,
+                "date_created": "2026-03-11T16:24:03Z",
+                "date_published": "2026-02-15T10:34:31Z",
+                "assets": []
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "type": "Release",
+                "value": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/releases/290594768",
+                "tag": "1.3.3",
+                "name": "1.3.3",
+                "author": {
+                    "name": "SergioZSZ",
+                    "type": "User"
+                },
+                "description": "#1.3.3\r\n\r\n- Actualizados metadatos",
+                "tarball_url": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/tarball/1.3.3",
+                "zipball_url": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/zipball/1.3.3",
+                "html_url": "https://github.com/SergioZSZ/Research-Funding-Knowledge-Graph/releases/tag/1.3.3",
+                "url": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/releases/290594768",
+                "release_id": 290594768,
+                "date_created": "2026-02-25T21:42:11Z",
+                "date_published": "2026-02-25T21:42:48Z",
+                "assets": []
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "type": "Release",
+                "value": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/releases/290570705",
+                "tag": "1.3.2",
+                "name": "1.3.2",
+                "author": {
+                    "name": "SergioZSZ",
+                    "type": "User"
+                },
+                "description": "# 1.3.2\r\n\r\n- Documentaci\u00f3n Actualizada",
+                "tarball_url": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/tarball/1.3.2",
+                "zipball_url": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/zipball/1.3.2",
+                "html_url": "https://github.com/SergioZSZ/Research-Funding-Knowledge-Graph/releases/tag/1.3.2",
+                "url": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/releases/290570705",
+                "release_id": 290570705,
+                "date_created": "2026-02-25T20:48:43Z",
+                "date_published": "2026-02-25T20:49:44Z",
+                "assets": []
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "type": "Release",
+                "value": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/releases/290564307",
+                "tag": "1.3.1",
+                "name": "1.3.1",
+                "author": {
+                    "name": "SergioZSZ",
+                    "type": "User"
+                },
+                "description": "# 1.3.1\r\n\r\n- Eliminados test unitarios dependientes de GROBID",
+                "tarball_url": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/tarball/1.3.1",
+                "zipball_url": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/zipball/1.3.1",
+                "html_url": "https://github.com/SergioZSZ/Research-Funding-Knowledge-Graph/releases/tag/1.3.1",
+                "url": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/releases/290564307",
+                "release_id": 290564307,
+                "date_created": "2026-02-25T20:38:08Z",
+                "date_published": "2026-02-25T20:38:37Z",
+                "assets": []
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "type": "Release",
+                "value": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/releases/290562139",
+                "tag": "1.3.0",
+                "name": "1.3.0",
+                "author": {
+                    "name": "SergioZSZ",
+                    "type": "User"
+                },
+                "description": "# 1.3.0\r\n\r\n- A\u00f1adida dockerizaci\u00f3n del proyecto\r\n\r\n- Modificado `__main__` para cambiar URL dependiendo de si se ejecut\u00f3 mediante docker-compose o en local\r\n\r\n- Modificada funci\u00f3n `isactive(url)` para esperar 30 segundos a que GROBID sea accesible",
+                "tarball_url": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/tarball/1.3.0",
+                "zipball_url": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/zipball/1.3.0",
+                "html_url": "https://github.com/SergioZSZ/Research-Funding-Knowledge-Graph/releases/tag/1.3.0",
+                "url": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/releases/290562139",
+                "release_id": 290562139,
+                "date_created": "2026-02-25T20:07:57Z",
+                "date_published": "2026-02-25T20:34:27Z",
+                "assets": []
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "type": "Release",
+                "value": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/releases/288722075",
+                "tag": "1.2.0",
+                "name": "1.2.0",
+                "author": {
+                    "name": "SergioZSZ",
+                    "type": "User"
+                },
+                "description": "# 1.2.0\r\n\r\n- cambiado entorno virtual de `Python venv` a `poetry` debido a su buena gesti\u00f3n de dependencias, su compatibilidad con otros sistemas operativos y facilidad para replicar y lanzar el proyecto (modificado README.md con lo necesario para su uso)\r\n\r\n- a\u00f1adido entry point con `poetry` para mejorar la facilidad de ejecuci\u00f3n del paquete `pipegrobid` usando solo el mandato `poetry run pipegrobid`\r\n\r\n- modulado mejor el c\u00f3digo para generar pruebas unitarias\r\n\r\n- a\u00f1adido tipado a los inputs y  outputs de las funciones \r\n\r\n- a\u00f1adidos test unitarios\r\n\r\n- a\u00f1adida github action para correr los test al subir el proyecto\r\n\r\n- compatibilidad con python >= 3.10\r\n\r\n- a\u00f1adido Readthedocs documentation\r\n\r\n\r\n\r\n\r\n\r\n",
+                "tarball_url": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/tarball/1.2.0",
+                "zipball_url": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/zipball/1.2.0",
+                "html_url": "https://github.com/SergioZSZ/Research-Funding-Knowledge-Graph/releases/tag/1.2.0",
+                "url": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/releases/288722075",
+                "release_id": 288722075,
+                "date_created": "2026-02-20T13:31:57Z",
+                "date_published": "2026-02-20T13:36:03Z",
+                "assets": []
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "type": "Release",
+                "value": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/releases/287024998",
+                "tag": "1.1.4",
+                "name": "1.1.4",
+                "author": {
+                    "name": "SergioZSZ",
+                    "type": "User"
+                },
+                "description": "Updated DOI ",
+                "tarball_url": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/tarball/1.1.4",
+                "zipball_url": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/zipball/1.1.4",
+                "html_url": "https://github.com/SergioZSZ/Research-Funding-Knowledge-Graph/releases/tag/1.1.4",
+                "url": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/releases/287024998",
+                "release_id": 287024998,
+                "date_created": "2026-02-16T23:31:49Z",
+                "date_published": "2026-02-16T23:33:05Z",
+                "assets": []
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "type": "Release",
+                "value": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/releases/287021665",
+                "tag": "1.1.1",
+                "name": "1.1.1",
+                "author": {
+                    "name": "SergioZSZ",
+                    "type": "User"
+                },
+                "description": "Eliminado el coger los links de referencias de los nodos <href> de los tei.xml",
+                "tarball_url": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/tarball/1.1.1",
+                "zipball_url": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/zipball/1.1.1",
+                "html_url": "https://github.com/SergioZSZ/Research-Funding-Knowledge-Graph/releases/tag/1.1.1",
+                "url": "https://api.github.com/repos/SergioZSZ/Research-Funding-Knowledge-Graph/releases/287021665",
+                "release_id": 287021665,
+                "date_created": "2026-02-16T23:08:27Z",
+                "date_published": "2026-02-16T23:11:00Z",
+                "assets": []
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "version": [
+        {
+            "result": {
+                "value": "1.4.1",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "file_exploration",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/CITATION.cff"
+        },
+        {
+            "result": {
+                "value": "1.4.1",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "code_parser",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/codemeta.json"
+        },
+        {
+            "result": {
+                "value": "1.4.1",
+                "type": "Release",
+                "tag": "1.4.1"
+            },
+            "confidence": 1,
+            "technique": "code_parser",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/pyproject.toml"
+        }
+    ],
+    "citation": [
+        {
+            "result": {
+                "title": "Research Funding Knowledge Graph (RFKG) + PipeGrobid",
+                "author": [
+                    {
+                        "type": "Agent",
+                        "name": "Sergio Zaballos Herrera",
+                        "family_name": "Zaballos Herrera",
+                        "given_name": "Sergio",
+                        "url": "https://orcid.org/0009-0000-3795-2767"
+                    }
+                ],
+                "type": "SoftwareApplication",
+                "identifier": [
+                    {
+                        "type": "doi",
+                        "value": "10.5281/zenodo.18647861",
+                        "description": "Zenodo DOI of this software release"
+                    }
+                ],
+                "format": "cff",
+                "value": "cff-version: 1.3.3\ntitle: Research Funding Knowledge Graph (RFKG) + PipeGrobid\nmessage: If you use this software or the generated Research Object, please cite it\n  using the metadata from this file.\ntype: software\nauthors:\n- given-names: Sergio\n  family-names: Zaballos Herrera\n  email: s.zaballosh@gmail.com\n  affiliation: Escuela T\u00e9cnica Superior de Ingenieros Inform\u00e1ticos, Universidad Polit\u00e9cnica\n    de Madrid\n  orcid: https://orcid.org/0009-0000-3795-2767\nidentifiers:\n- type: doi\n  value: 10.5281/zenodo.18647861\n  description: Zenodo DOI of this software release\nrepository-code: https://github.com/SergioZSZ/OS-IA-Pipegrobid\nabstract: Research Funding Knowledge Graph (RFKG) + PipeGrobid is a research software\n  project for processing scientific papers and analysing scientific funding through\n  a Knowledge Graph. PipeGrobid transforms PDFs into TEI XML using GROBID and generates\n  initial extraction outputs. RFKG extends that pipeline with ontology modelling,\n  NER, topic modelling, online enrichment, RDF Knowledge Graph generation, Fuseki\n  SPARQL publication, a FastAPI backend and a Streamlit frontend for exploring funding\n  countries, organizations, projects, topics, acknowledgements, ORCID data and paper\n  similarities.\nkeywords:\n- RFKG\n- PipeGrobid\n- GROBID\n- TEI XML\n- knowledge graph\n- research funding\n- SPARQL\n- Fuseki\n- FastAPI\n- Streamlit\n- open science\nlicense: Apache-2.0\nversion: 1.4.1\ndate-released: '2026-05-26'\n",
+                "datePublished": "2026"
+            },
+            "confidence": 1,
+            "technique": "file_exploration",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/CITATION.cff"
+        },
+        {
+            "result": {
+                "title": "Research Funding Knowledge Graph (RFKG) + PipeGrobid",
+                "author": [
+                    {
+                        "type": "Agent",
+                        "name": "Sergio Zaballos Herrera",
+                        "family_name": "Zaballos Herrera",
+                        "given_name": "Sergio"
+                    }
+                ],
+                "doi": "10.5281/zenodo.18647861",
+                "year": 2026,
+                "type": "ScholarlyArticle",
+                "is_preferred_citation": "True",
+                "format": "cff",
+                "value": "preferred-citation:\n  authors:\n  - family-names: Zaballos Herrera\n    given-names: Sergio\n  doi: 10.5281/zenodo.18647861\n  repository-code: https://github.com/SergioZSZ/OS-IA-Pipegrobid\n  title: Research Funding Knowledge Graph (RFKG) + PipeGrobid\n  type: software\n  version: 1.4.1\n  year: 2026\n",
+                "datePublished": "2026"
+            },
+            "confidence": 1,
+            "technique": "file_exploration",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/CITATION.cff"
+        }
+    ],
+    "has_build_file": [
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/Dockerfile",
+                "type": "Url",
+                "format": "dockerfile"
+            },
+            "confidence": 1,
+            "technique": "file_exploration",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/Dockerfile"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/docker-compose.yml",
+                "type": "Url",
+                "format": "docker_compose"
+            },
+            "confidence": 1,
+            "technique": "file_exploration",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/docker-compose.yml"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/pyproject.toml",
+                "type": "Url",
+                "format": "pyproject.toml"
+            },
+            "confidence": 1,
+            "technique": "file_exploration",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/pyproject.toml"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/containers/docker-compose.yml",
+                "type": "Url",
+                "format": "docker_compose"
+            },
+            "confidence": 1,
+            "technique": "file_exploration",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/containers/docker-compose.yml"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/docs/requirements.txt",
+                "type": "Url",
+                "format": "requirements.txt"
+            },
+            "confidence": 1,
+            "technique": "file_exploration",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/docs/requirements.txt"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/containers/research_frontend/Dockerfile",
+                "type": "Url",
+                "format": "dockerfile"
+            },
+            "confidence": 1,
+            "technique": "file_exploration",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/containers/research_frontend/Dockerfile"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/containers/n8n_container/Dockerfile",
+                "type": "Url",
+                "format": "dockerfile"
+            },
+            "confidence": 1,
+            "technique": "file_exploration",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/containers/n8n_container/Dockerfile"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/containers/python_container/Dockerfile",
+                "type": "Url",
+                "format": "dockerfile"
+            },
+            "confidence": 1,
+            "technique": "file_exploration",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/containers/python_container/Dockerfile"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/containers/research_api/app/Dockerfile",
+                "type": "Url",
+                "format": "dockerfile"
+            },
+            "confidence": 1,
+            "technique": "file_exploration",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/containers/research_api/app/Dockerfile"
+        }
+    ],
+    "copyright_holder": [
+        {
+            "result": {
+                "value": "Sergio Zaballos Herrera",
+                "type": "Agent",
+                "year": "2026"
+            },
+            "confidence": 1,
+            "technique": "file_exploration",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/LICENSE"
+        }
+    ],
+    "readme_url": [
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/README.md",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        }
+    ],
+    "application_domain": [
+        {
+            "result": {
+                "value": "SoftwareSourceCode",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "code_parser",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/codemeta.json"
+        }
+    ],
+    "date_published": [
+        {
+            "result": {
+                "value": "2026-05-26",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "code_parser",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/codemeta.json"
+        }
+    ],
+    "keywords": [
+        {
+            "result": {
+                "value": [
+                    "grobid",
+                    "tei xml",
+                    "open science",
+                    "research software engineering",
+                    "scientific document processing",
+                    "metadata extraction"
+                ],
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "code_parser",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/codemeta.json"
+        }
+    ],
+    "development_status": [
+        {
+            "result": {
+                "value": "active",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "code_parser",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/codemeta.json"
+        }
+    ],
+    "identifier": [
+        {
+            "result": {
+                "value": "https://doi.org/10.5281/zenodo.18647861",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "code_parser",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/codemeta.json"
+        },
+        {
+            "result": {
+                "type": "Url",
+                "value": "https://doi.org/10.5281/zenodo.18647861"
+            },
+            "confidence": 1,
+            "technique": "regular_expression",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/README.md"
+        }
+    ],
+    "description": [
+        {
+            "result": {
+                "value": "This software implements an automated pipeline for\n  processing scientific documents using GROBID. \n\n  It extracts structured TEI XML data from research papers\n  and performs analysis including abstract extraction, \n\n  figure counting, link extraction, and keyword cloud\n  generation.\n\n\n  The project follows open science and research software\n  engineering principles, \n\n  including versioning, DOI assignment, structured metadata,\n  and reproducibility practices. \n\n  It is designed as an educational and research-oriented\n  tool for exploring scholarly document processing\n  workflows.",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "code_parser",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/codemeta.json"
+        },
+        {
+            "result": {
+                "value": "Data Extraction using GROBID",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "code_parser",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/pyproject.toml"
+        }
+    ],
+    "author": [
+        {
+            "result": {
+                "value": "Sergio Zaballos Herrera",
+                "type": "Agent",
+                "email": "s.zaballosh@gmail.com",
+                "affiliation": "Escuela T\u00e9cnica Superior de Ingenieros Inform\u00e1ticos, Universidad Polit\u00e9cnica de Madrid",
+                "identifier": "https://github.com/SergioZSZ"
+            },
+            "confidence": 1,
+            "technique": "code_parser",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/codemeta.json"
+        },
+        {
+            "result": {
+                "value": "Fernando P\u00e9rez Alonso-Castrillo",
+                "type": "Agent",
+                "email": "fernando.perezalo@alumnos.upm.es",
+                "affiliation": "Escuela T\u00e9cnica Superior de Ingenieros Inform\u00e1ticos, Universidad Polit\u00e9cnica de Madrid",
+                "identifier": "https://github.com/NanoPerez807"
+            },
+            "confidence": 1,
+            "technique": "code_parser",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/codemeta.json"
+        },
+        {
+            "result": {
+                "value": "Carlos Sainz Sueiro",
+                "type": "Agent",
+                "email": "carlos.sainz@alumnos.upm.es",
+                "affiliation": "Escuela T\u00e9cnica Superior de Ingenieros Inform\u00e1ticos, Universidad Polit\u00e9cnica de Madrid",
+                "identifier": "https://github.com/ghit2025"
+            },
+            "confidence": 1,
+            "technique": "code_parser",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/codemeta.json"
+        },
+        {
+            "result": {
+                "value": "Alberto Arag\u00f3n Calvo",
+                "type": "Agent",
+                "email": "alberto.aragon.calvo@alumnos.upm.es",
+                "affiliation": "Escuela T\u00e9cnica Superior de Ingenieros Inform\u00e1ticos, Universidad Polit\u00e9cnica de Madrid",
+                "identifier": "https://github.com/Abielmenda"
+            },
+            "confidence": 1,
+            "technique": "code_parser",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/codemeta.json"
+        },
+        {
+            "result": {
+                "name": "SergioZSZ",
+                "email": "s.zaballosh@gmail.com",
+                "type": "Agent",
+                "value": "SergioZSZ"
+            },
+            "confidence": 1,
+            "technique": "code_parser",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/pyproject.toml"
+        },
+        {
+            "result": {
+                "name": "NanoPerez807",
+                "email": "fernando.perezalo@alumnos.upm.es",
+                "type": "Agent",
+                "value": "NanoPerez807"
+            },
+            "confidence": 1,
+            "technique": "code_parser",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/pyproject.toml"
+        },
+        {
+            "result": {
+                "name": "ghit2025",
+                "email": "carlos.sainz@alumnos.upm.es",
+                "type": "Agent",
+                "value": "ghit2025"
+            },
+            "confidence": 1,
+            "technique": "code_parser",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/pyproject.toml"
+        },
+        {
+            "result": {
+                "name": "Abielmenda",
+                "email": "alberto.aragon.calvo@alumnos.upm.es",
+                "type": "Agent",
+                "value": "Abielmenda"
+            },
+            "confidence": 1,
+            "technique": "code_parser",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/pyproject.toml"
+        }
+    ],
+    "requirements": [
+        {
+            "result": {
+                "value": "GROBID==0.8.2",
+                "name": "GROBID",
+                "version": "==0.8.2",
+                "type": "SoftwareDependency"
+            },
+            "confidence": 1,
+            "technique": "code_parser",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/codemeta.json"
+        },
+        {
+            "result": {
+                "value": "Docker==29.0.1",
+                "name": "Docker",
+                "version": "==29.0.1",
+                "type": "SoftwareDependency"
+            },
+            "confidence": 1,
+            "technique": "code_parser",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/codemeta.json"
+        },
+        {
+            "result": {
+                "value": "poetry==2.3.2",
+                "name": "poetry",
+                "version": "==2.3.2",
+                "type": "SoftwareDependency"
+            },
+            "confidence": 1,
+            "technique": "code_parser",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/codemeta.json"
+        },
+        {
+            "result": {
+                "value": "requests (>=2.32.5,<3.0.0)",
+                "name": "requests (",
+                "version": ">=2.32.5,<3.0.0)",
+                "type": "SoftwareDependency",
+                "dependency_type": "runtime",
+                "dependency_resolver": "python"
+            },
+            "confidence": 1,
+            "technique": "code_parser",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/pyproject.toml"
+        },
+        {
+            "result": {
+                "value": "matplotlib (>=3.10.8,<4.0.0)",
+                "name": "matplotlib (",
+                "version": ">=3.10.8,<4.0.0)",
+                "type": "SoftwareDependency",
+                "dependency_type": "runtime",
+                "dependency_resolver": "python"
+            },
+            "confidence": 1,
+            "technique": "code_parser",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/pyproject.toml"
+        },
+        {
+            "result": {
+                "value": "natsort (>=8.4.0,<9.0.0)",
+                "name": "natsort (",
+                "version": ">=8.4.0,<9.0.0)",
+                "type": "SoftwareDependency",
+                "dependency_type": "runtime",
+                "dependency_resolver": "python"
+            },
+            "confidence": 1,
+            "technique": "code_parser",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/pyproject.toml"
+        },
+        {
+            "result": {
+                "value": "nltk (>=3.9.2,<4.0.0)",
+                "name": "nltk (",
+                "version": ">=3.9.2,<4.0.0)",
+                "type": "SoftwareDependency",
+                "dependency_type": "runtime",
+                "dependency_resolver": "python"
+            },
+            "confidence": 1,
+            "technique": "code_parser",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/pyproject.toml"
+        },
+        {
+            "result": {
+                "value": "wordcloud (>=1.9.6,<2.0.0)",
+                "name": "wordcloud (",
+                "version": ">=1.9.6,<2.0.0)",
+                "type": "SoftwareDependency",
+                "dependency_type": "runtime",
+                "dependency_resolver": "python"
+            },
+            "confidence": 1,
+            "technique": "code_parser",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/pyproject.toml"
+        },
+        {
+            "result": {
+                "value": "pytest (>=9.0.2,<10.0.0)",
+                "name": "pytest (",
+                "version": ">=9.0.2,<10.0.0)",
+                "type": "SoftwareDependency",
+                "dependency_type": "runtime",
+                "dependency_resolver": "python"
+            },
+            "confidence": 1,
+            "technique": "code_parser",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/pyproject.toml"
+        },
+        {
+            "result": {
+                "value": "poetry-core>=2.0.0,<3.0.0",
+                "name": "poetry-core",
+                "version": ">=2.0.0,<3.0.0",
+                "type": "SoftwareDependency",
+                "dependency_type": "runtime",
+                "dependency_resolver": "python"
+            },
+            "confidence": 1,
+            "technique": "code_parser",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/pyproject.toml"
+        },
+        {
+            "result": {
+                "value": "mkdocs>=1.6",
+                "name": "mkdocs",
+                "type": "SoftwareDependency",
+                "version": ">=1.6"
+            },
+            "confidence": 1,
+            "technique": "code_parser",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/docs/requirements.txt"
+        }
+    ],
+    "runtime_platform": [
+        {
+            "result": {
+                "value": "Python",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "code_parser",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/codemeta.json"
+        },
+        {
+            "result": {
+                "value": "Python>=3.10",
+                "name": "Python",
+                "version": ">=3.10",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "code_parser",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/pyproject.toml"
+        }
+    ],
+    "has_package_file": [
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/pyproject.toml",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "code_parser",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/pyproject.toml"
+        }
+    ],
+    "package_id": [
+        {
+            "result": {
+                "value": "pipegrobid",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "code_parser",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/pyproject.toml"
+        }
+    ],
+    "documentation": [
+        {
+            "result": {
+                "value": "https://github.com/SergioZSZ/Research-Funding-Knowledge-Graph/tree/main/docs",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://github.com/SergioZSZ/Research-Funding-Knowledge-Graph/tree/main/assigment_2/step_1/docs",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        },
+        {
+            "result": {
+                "value": "https://github.com/SergioZSZ/Research-Funding-Knowledge-Graph/tree/main/assigment_2/step_2/ner_evaluation/docs",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        }
+    ],
+    "continuous_integration": [
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/.github/workflows/ci-test.yml",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        }
+    ],
+    "ontologies": [
+        {
+            "result": {
+                "value": "https://g4.org/ontology/research-funding#",
+                "type": "Ontology",
+                "url": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/assigment_2/step_1/ontology/ontology.ttl",
+                "title": "Ontology for funding researching",
+                "version": "0.0.1",
+                "license": "https://www.apache.org/licenses/LICENSE-2.0",
+                "author": [
+                    {
+                        "type": "Agent",
+                        "name": "G4_OPENSCIENCE"
+                    }
+                ]
+            },
+            "confidence": 1,
+            "technique": "file_exploration",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/assigment_2/step_1/ontology/ontology.ttl"
+        }
+    ],
+    "application_type": [
+        {
+            "result": {
+                "value": "commandline-application",
+                "type": "String"
+            },
+            "confidence": 0.82,
+            "technique": "software_type_heuristics"
+        }
+    ],
+    "funding": [
+        {
+            "result": {
+                "value": "Mas documentacion en: https://pipegrobid-software.readthedocs.io/es/latest/\n\nRFKG es una aplicacion para analizar financiacion cientifica a partir de papers procesados como Knowledge Graph. PipeGrobid es el pipeline documental que transforma PDFs en XML TEI con GROBID y genera las salidas iniciales necesarias para alimentar la parte semantica.\n\nEl proyecto se organiza en dos fases igualmente importantes: la FASE 1 construye el procesamiento reproducible de documentos cientificos, y la FASE 2 convierte esas extracciones en una app KG con n8n, Fuseki, `research_api` y Streamlit.\n",
+                "type": "Text_excerpt",
+                "original_header": "Research Funding Knowledge Graph (RFKG) + PipeGrobid"
+            },
+            "confidence": 0.5,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/README.md"
+        },
+        {
+            "result": {
+                "value": "Flujo:\n\n```text\nPDF -> GROBID -> TEI XML -> extraccion -> limpieza NLP -> visualizacion y TXT\n```\n\nEl pipeline principal vive en `src/pipegrobid/` y genera:\n\n- `xmls/`: XML TEI obtenidos desde GROBID.\n- `generated_files/keyword_cloud.png`: nube de palabras de abstracts.\n- `generated_files/figures_visualization.png`: visualizacion de figuras por paper.\n- `generated_files/links_per_paper.txt`: enlaces detectados por paper.\n",
+                "type": "Text_excerpt",
+                "original_header": "FASE 1: pipeline PDF -&gt; XML -&gt; salidas",
+                "parent_header": [
+                    "Research Funding Knowledge Graph (RFKG) + PipeGrobid"
+                ]
+            },
+            "confidence": 0.5,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/README.md"
+        },
+        {
+            "result": {
+                "value": "1. Colocar PDFs en `pdfs/`.\n2. Abrir Docker Desktop.\n3. Ejecutar desde la raiz:\n\n```bash\ndocker compose up --build pipegrobid\ndocker compose down\n```\n",
+                "type": "Text_excerpt",
+                "original_header": "Ejecucion con Docker Compose",
+                "parent_header": [
+                    "Research Funding Knowledge Graph (RFKG) + PipeGrobid",
+                    "FASE 1: pipeline PDF -&gt; XML -&gt; salidas"
+                ]
+            },
+            "confidence": 0.8,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/README.md"
+        },
+        {
+            "result": {
+                "value": "Levantar GROBID:\n\n```bash\ndocker run -t --rm -p 8070:8070 grobid/grobid:0.7.2\n```\n\nInstalar y ejecutar:\n\n```bash\npoetry install\npoetry run pipegrobid\n```\n\nTests:\n\n```bash\npoetry run pytest -v\n```\n",
+                "type": "Text_excerpt",
+                "original_header": "Ejecucion local con Poetry",
+                "parent_header": [
+                    "Research Funding Knowledge Graph (RFKG) + PipeGrobid",
+                    "FASE 1: pipeline PDF -&gt; XML -&gt; salidas"
+                ]
+            },
+            "confidence": 0.8,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/README.md"
+        },
+        {
+            "result": {
+                "value": "La FASE 2 construye RFKG sobre las salidas de PipeGrobid. Convierte los papers procesados en un KG RDF para responder preguntas sobre financiacion cientifica: paises financiadores, organismos, proyectos, topics, autores, acknowledgements, ORCID y papers similares.\n\nFlujo:\n\n```text\nPipeGrobid -> KG RDF/TTL -> Fuseki -> research_api -> Streamlit\n```\n\nStack principal:\n\n- `n8n`: workflow completo.\n- `grobid`: conversion PDF -> XML TEI.\n- `pipegrobid`: pipeline inicial.\n- `python_runner`: scripts Python de los steps.\n- `fuseki`: triplestore SPARQL.\n- `research_api`: API FastAPI sobre el KG.\n- `research_frontend`: app Streamlit.\n\nLevantar la app completa:\n\n```bash\ndocker compose -f containers/docker-compose.yml up --build -d\n```\n\nEjecuciones posteriores:\n\n```bash\ndocker compose -f containers/docker-compose.yml up -d\n```\n\nURLs:\n\n- n8n: `http://localhost:5678`\n- API: `http://localhost:8000/docs`\n- Frontend: `http://localhost:8501`\n- Fuseki: `http://localhost:3030`\n\nPara ejecutar el workflow, importar en n8n:\n\n```text\ncontainers/workflow/pipegrobid_workflow.json\n```\n\nDespues de actualizar el KG en Fuseki, usar `Actualizar datos` en Streamlit para limpiar cache y volver a consultar la API.\n\nDocumento operativo completo: [app.md](app.md).\n",
+                "type": "Text_excerpt",
+                "original_header": "FASE 2: RFKG, app Knowledge Graph",
+                "parent_header": [
+                    "Research Funding Knowledge Graph (RFKG) + PipeGrobid"
+                ]
+            },
+            "confidence": 0.8,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/README.md"
+        },
+        {
+            "result": {
+                "value": "- [Step 1: ontologia y caso de uso](assigment_2/step_1/README.md)\n  - [Caso de uso](assigment_2/step_1/docs/caso_de_uso.md)\n  - [Fuentes](assigment_2/step_1/docs/fuentes.md)\n- [Step 2: XML y NER](assigment_2/step_2/README.md)\n  - [Parseo XML](assigment_2/step_2/xmls_parse/README.md)\n  - [Evaluacion NER](assigment_2/step_2/ner_evaluation/README.md)\n  - [Extraccion NER con LLM](assigment_2/step_2/ner_extraction/README.md)\n- [Step 3: topics y similitudes](assigment_2/step_3/README.md)\n  - [Topic modeling](assigment_2/step_3/topic_modeling/README.md)\n- [Step 4: Knowledge Graph](assigment_2/step_4/README.md)\n  - [Enriquecimiento online](assigment_2/step_4/online_enrichment/README.md)\n  - [Generacion KG local](assigment_2/step_4/gen_local_kg/README.md)\n- [Backend research_api](containers/research_api/API_RESEARCH_API.md)\n- [Frontend Streamlit](containers/research_frontend/README.md)\n",
+                "type": "Text_excerpt",
+                "original_header": "Indice de la FASE 2",
+                "parent_header": [
+                    "Research Funding Knowledge Graph (RFKG) + PipeGrobid"
+                ]
+            },
+            "confidence": 0.8,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/README.md"
+        },
+        {
+            "result": {
+                "value": "```text\nsrc/pipegrobid/              paquete principal de la FASE 1\ntest/                        tests del paquete principal\ndocs/                        documentacion ReadTheDocs por fases\nassigment_2/                 steps de ontologia, NER, topics y KG\ncontainers/                  stack Docker, n8n, Fuseki, API y frontend\npdfs/                        PDFs de entrada\nxmls/                        XML TEI generados\ngenerated_files/             salidas visuales y TXT\noutputs/                     salidas usadas por el stack/workflow\n```\n",
+                "type": "Text_excerpt",
+                "original_header": "Estructura principal",
+                "parent_header": [
+                    "Research Funding Knowledge Graph (RFKG) + PipeGrobid"
+                ]
+            },
+            "confidence": 1.0,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/README.md"
+        },
+        {
+            "result": {
+                "value": "Se uso IA generativa como apoyo en distintas partes del proyecto, siempre bajo supervision y validacion de los autores:\n\n- Parseo XML: ayuda para localizar nodos TEI relevantes y para generar/entender el codigo inicial de extraccion.\n- Evaluacion NER: los LLMs Groq y Qwen fueron objeto de estudio; tambien se uso IA conversacional para apoyar scripts, informe y documentacion. El gold standard fue anotado manualmente.\n- Extraccion NER: ayuda para revisar y estructurar scripts relacionados con la extraccion de personas, organizaciones y proyectos.\n- Topic modeling: ayuda para entender BERTopic, HDBSCAN, UMAP y la generacion de similitudes entre papers.\n- Enriquecimiento online: apoyo en expresiones regulares, limpieza de identificadores y navegacion de respuestas JSON de APIs externas.\n- Generacion del KG local: apoyo para estructurar `build_kg_from_jsons()` y comprobar la incorporacion de clases, propiedades y relaciones.\n- Backend `research_api`: apoyo para estructurar queries SPARQL, schemas y endpoints necesarios para conectar Fuseki con el frontend.\n- Frontend Streamlit: se uso IA generativa para generar la app siguiendo la guia de los autores, revisando, probando y evaluando cada parte generada.\n- Estructuramiento y uso de ro-crate.py para crear el RO",
+                "type": "Text_excerpt",
+                "original_header": "Declaracion de uso de IA",
+                "parent_header": [
+                    "Research Funding Knowledge Graph (RFKG) + PipeGrobid"
+                ]
+            },
+            "confidence": 0.8,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/README.md"
+        },
+        {
+            "result": {
+                "value": "- GROBID debe estar levantado para generar XMLs.\n- Algunos enlaces extraidos desde PDFs pueden traer fragmentos adicionales por como GROBID reconstruye el texto.\n- La financiacion de la app se muestra como importe conocido asociado, no como reparto contable exacto.\n- No todos los papers o entidades tienen ORCID, pais, afiliacion o importe disponible.\n- ORCID puede devolver perfiles ambiguos si hay varias personas con el mismo nombre.\n- Wikidata no siempre dispone de pais para organizaciones supranacionales.",
+                "type": "Text_excerpt",
+                "original_header": "Limitaciones",
+                "parent_header": [
+                    "Research Funding Knowledge Graph (RFKG) + PipeGrobid"
+                ]
+            },
+            "confidence": 1.0,
+            "technique": "header_analysis",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/README.md"
+        }
+    ],
+    "related_documentation": [
+        {
+            "result": {
+                "type": "Url",
+                "value": "https://pipegrobid-software.readthedocs.io/",
+                "format": "readthedocs"
+            },
+            "confidence": 1,
+            "technique": "regular_expression",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/README.md"
+        }
+    ],
+    "repository_status": [
+        {
+            "result": {
+                "type": "Url",
+                "value": "https://www.repostatus.org/#active",
+                "description": ""
+            },
+            "confidence": 1,
+            "technique": "regular_expression",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Research-Funding-Knowledge-Graph/main/README.md"
+        }
+    ]
+}

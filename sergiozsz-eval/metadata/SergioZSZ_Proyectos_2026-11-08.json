@@ -1,0 +1,273 @@
+{
+    "somef_provenance": {
+        "somef_version": "0.11.3",
+        "somef_schema_version": "1.0.0",
+        "date": "2026-11-08 12:23:52"
+    },
+    "code_repository": [
+        {
+            "result": {
+                "value": "https://github.com/SergioZSZ/Proyectos",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "owner": [
+        {
+            "result": {
+                "value": "SergioZSZ",
+                "type": "User"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "date_created": [
+        {
+            "result": {
+                "value": "2025-11-16T14:27:21Z",
+                "type": "Date"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "date_updated": [
+        {
+            "result": {
+                "value": "2025-12-26T15:59:06Z",
+                "type": "Date"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "description": [
+        {
+            "result": {
+                "value": "Proyectos hechos a lo largo de mi carrera en Ingenier\u00eda Inform\u00e1tica",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "name": [
+        {
+            "result": {
+                "value": "Proyectos",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "full_name": [
+        {
+            "result": {
+                "value": "SergioZSZ/Proyectos",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "issue_tracker": [
+        {
+            "result": {
+                "value": "https://api.github.com/repos/SergioZSZ/Proyectos/issues",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "forks_url": [
+        {
+            "result": {
+                "value": "https://api.github.com/repos/SergioZSZ/Proyectos/forks",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "download_url": [
+        {
+            "result": {
+                "value": "https://github.com/SergioZSZ/Proyectos/releases",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "programming_languages": [
+        {
+            "result": {
+                "value": "Java",
+                "name": "Java",
+                "type": "Programming_language",
+                "size": 86413
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "Python",
+                "name": "Python",
+                "type": "Programming_language",
+                "size": 74053
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "C",
+                "name": "C",
+                "type": "Programming_language",
+                "size": 43545
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "Mako",
+                "name": "Mako",
+                "type": "Programming_language",
+                "size": 704
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        },
+        {
+            "result": {
+                "value": "Dockerfile",
+                "name": "Dockerfile",
+                "type": "Programming_language",
+                "size": 426
+            },
+            "confidence": 1,
+            "technique": "GitHub_API"
+        }
+    ],
+    "readme_url": [
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/SergioZSZ/Proyectos/main/README.md",
+                "type": "Url"
+            },
+            "confidence": 1,
+            "technique": "file_exploration"
+        }
+    ],
+    "has_build_file": [
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/SergioZSZ/Proyectos/main/SemanticWeb-App_Near_Parkings/docker-compose.yml",
+                "type": "Url",
+                "format": "docker_compose"
+            },
+            "confidence": 1,
+            "technique": "file_exploration",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Proyectos/main/SemanticWeb-App_Near_Parkings/docker-compose.yml"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/SergioZSZ/Proyectos/main/ML-SpamClassifier/requirements.txt",
+                "type": "Url",
+                "format": "requirements.txt"
+            },
+            "confidence": 1,
+            "technique": "file_exploration",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Proyectos/main/ML-SpamClassifier/requirements.txt"
+        },
+        {
+            "result": {
+                "value": "https://raw.githubusercontent.com/SergioZSZ/Proyectos/main/SemanticWeb-App_Near_Parkings/backend/Dockerfile",
+                "type": "Url",
+                "format": "dockerfile"
+            },
+            "confidence": 1,
+            "technique": "file_exploration",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Proyectos/main/SemanticWeb-App_Near_Parkings/backend/Dockerfile"
+        }
+    ],
+    "application_type": [
+        {
+            "result": {
+                "value": "service",
+                "type": "String"
+            },
+            "confidence": 1,
+            "technique": "software_type_heuristics"
+        }
+    ],
+    "application_domain": [
+        {
+            "result": {
+                "type": "String",
+                "value": "Semantic web"
+            },
+            "confidence": 0.9683348046861739,
+            "technique": "supervised_classification"
+        },
+        {
+            "result": {
+                "type": "String",
+                "value": "Semantic web"
+            },
+            "confidence": 0.9458542466311711,
+            "technique": "supervised_classification"
+        },
+        {
+            "result": {
+                "type": "String",
+                "value": "Semantic web"
+            },
+            "confidence": 0.9451767427502256,
+            "technique": "supervised_classification"
+        },
+        {
+            "result": {
+                "type": "String",
+                "value": "Semantic web"
+            },
+            "confidence": 0.9547370891275471,
+            "technique": "supervised_classification"
+        },
+        {
+            "result": {
+                "type": "String",
+                "value": "Semantic web"
+            },
+            "confidence": 0.9502383441089055,
+            "technique": "supervised_classification"
+        },
+        {
+            "result": {
+                "type": "String",
+                "value": "Semantic web"
+            },
+            "confidence": 0.9543199682925091,
+            "technique": "supervised_classification"
+        }
+    ],
+    "documentation": [
+        {
+            "result": {
+                "type": "Url",
+                "value": "https://proyectos.readthedocs.io/",
+                "format": "readthedocs"
+            },
+            "confidence": 0.9,
+            "technique": "software_type_heuristics",
+            "source": "https://raw.githubusercontent.com/SergioZSZ/Proyectos/main/README.md"
+        }
+    ]
+}
