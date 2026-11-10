@@ -20,21 +20,21 @@ of GitHub stakeholders.
 
 Evaluation of repositories belonging to an individual researcher.
 
-[Explore Catalog](sergiozsz-eval/)
+[Explore Catalog](researcher-eval/)
 
-### Project — FAIR2Adapt
+### Research project — FAIR2Adapt
 
 Evaluation of repositories associated with the FAIR2Adapt
 research project.
 
-[Explore Catalog](fair2adapt-eval/)
+[Explore Catalog](research-project-eval/)
 
-### Organization — OEG-UPM
+### Research group — OEG-UPM
 
 Evaluation of repositories maintained by the
 Ontology Engineering Group at UPM.
 
-[Explore Catalog](oeg-eval/)
+[Explore Catalog](research-group-eval/)
 
 ---
 
