@@ -38,6 +38,8 @@ Ontology Engineering Group at UPM.
 
 ---
 
+**Please note that these websites are demonstrator portals. We do not link to real GitHub issues to avoid spamming the corresponding developers**
+
 ## About SQOO
 
 SQOO integrates tools for metadata extraction, software
