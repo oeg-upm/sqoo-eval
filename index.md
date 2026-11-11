@@ -16,20 +16,20 @@ assessment by integrating different analysis tools.
 The system was evaluated using three different types
 of GitHub stakeholders.
 
-### Researcher — SergioZSZ
+### Researcher - SergioZSZ
 
 Evaluation of repositories belonging to an individual researcher.
 
 [Explore Catalog](researcher-eval/)
 
-### Research project — FAIR2Adapt
+### Research project - FAIR2Adapt
 
 Evaluation of repositories associated with the FAIR2Adapt
 research project.
 
 [Explore Catalog](research-project-eval/)
 
-### Research group — OEG-UPM
+### Research group - OEG-UPM
 
 Evaluation of repositories maintained by the
 Ontology Engineering Group at UPM.
